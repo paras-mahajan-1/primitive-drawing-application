@@ -1,4 +1,4 @@
-window.addEventListener("touchmove", (event) => {
+window.addEventListener("mousemove", (event) => {
     let dot = document.createElement("div");
     dot.setAttribute("class", "dot");
     dot.style.left = (event.pageX - 4) + "px";
